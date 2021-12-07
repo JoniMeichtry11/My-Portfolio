@@ -1,0 +1,74 @@
+.container-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  margin-top: 40px;
+}
+
+.container-networks .buttons-networks {
+  font-size: 2em;
+  text-align: center;
+  width: 80%;
+  max-width: 1440px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background: radial-gradient(#c9beaa, #a5906b);
+}
+
+.container-networks .buttons-networks a {
+  text-decoration: none;
+  font-size: 30px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 60px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #c9beaa;
+  -webkit-box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+          box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+  color: #585858;
+  text-align: center;
+}
+
+.container-networks .buttons-networks a:active {
+  -webkit-box-shadow: inset 1px 1px 3px #2a2a2ac5, inset -1px -1px 3px rgba(0, 0, 0, 0.055);
+          box-shadow: inset 1px 1px 3px #2a2a2ac5, inset -1px -1px 3px rgba(0, 0, 0, 0.055);
+  font-size: 27px;
+}
+/*# sourceMappingURL=contact.component.css.map */

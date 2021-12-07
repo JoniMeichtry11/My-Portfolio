@@ -1,0 +1,36 @@
+{
+  "D.W": "Web Developer Full Stack",
+  "About me": "About me",
+  "Proyects": "Proyects",
+  "Contact": "Contact",
+  "DownloadCV": "Download CV",
+
+
+  "General information parr-1": "I am a Web Developer, i love Angular and Typescript. I am passionate about Technology.",
+  "General information parr-2": "I am very self-taught, easy-going, reliable and committed to work.",
+  "General information parr-3": "I currently live in María Teresa, Santa Fe, Argentina.",
+  "Frontend parr-1": "I have a lot of knowledge and practice with HTML and CSS3 (Although lately I am modeling a lot with SCSS ... I love it 😍)",
+  "Frontend parr-2": "I always work with Responsive Design, both with Pure CSS and also with frameworks like Bootstrap. You can check it even with this same page 😉👍",
+  "Frontend parr-3": "In Angular, I have knowledge in the use and implementation of reactive Forms, Observables, Promises, routing, pipes, decorators and many libraries ... apart from that I handle a lot with the command line using the Angular CLI 🙃",
+  "Backend": "In the Backend I have knowledge and practice with NodeJS using Express. In this case most of the time I used javascript, because I wanted the server to work just fine and thus continue to work on the frontend. However, I have a couple of apps built with typescript and babel to use ES6. I have the necessary knowledge to implement and handle HTTP requests. And right now I have several Apps connected to Heroku, and at the same time MongoDB for the Database.",
+  "Database-title": "Databases",
+  "Database-body": "I know and have acquired a lot of practice both with relational databases, in MySQL and in PostgreSQL. And with Non-relational with MongoDB.",
+  "Git-parr": "I can contribute a lot to any team that uses Git for their projects, you can check my profile here 😉👍",
+  "Git-button": "My Github",
+  "Footer-proyects": "Take some time to see my projects 😁",
+  "Footer-contact": "Contact me from any of these social networks.",
+
+  "H-C": "HTML and CSS",
+  "button-repository": "Repository",
+  "button-visit-web": "Visit Web",
+  "A-F": "Angular and Firebase",
+  "Memes-F": "Friends and Memes",
+  "Music": "My Music",
+  "APP-Budget": "Budget App",
+  "Image Random": "Random Photo",
+  "Proyects f-p": "Fun and practical projects",
+  "portfolio": "This Portfolio :D",
+  "weather app": "Weather App",
+  "Napoleon": "Napoleon's blog",
+  "Back-home": "Back to Home"
+}

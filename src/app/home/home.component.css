@@ -1,0 +1,359 @@
+.main .leading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+}
+
+.main .leading .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.main .leading .profile .profile__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+}
+
+.main .leading .profile .profile__container .profile__image img {
+  position: relative;
+  right: 0;
+  width: 10em;
+  max-height: 12em;
+  padding-right: 3em;
+}
+
+.main .leading .profile .profile__container .profile__name {
+  font-size: 2.3em;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.main .leading .profile .profile__container .profile__name h2 {
+  font-size: .6em;
+}
+
+.main .leading .profile .profile__container hr {
+  width: 100%;
+  border-color: #ffffff24;
+}
+
+.main .leading .profile .container-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.main .leading .profile .container-redes a {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main .leading .profile .container-redes a img {
+  width: 40px;
+  height: 40px;
+}
+
+.main .leading .profile .container-redes a p {
+  opacity: 0;
+}
+
+.main .leading .profile .container-redes a:visited {
+  color: white;
+}
+
+.main .leading .profile .container-redes #gmail {
+  color: black;
+}
+
+.main .leading .profile .container-redes #gmail:visited {
+  color: black;
+}
+
+.main .leading .profile .container-redes #whatsapp:hover {
+  width: 200px;
+  background-color: #1bd741;
+  -webkit-clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+          clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.main .leading .profile .container-redes #whatsapp:hover p {
+  opacity: 100;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.main .leading .profile .container-redes #github:hover {
+  width: 270px;
+  background-color: black;
+  -webkit-clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+          clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.main .leading .profile .container-redes #github:hover p {
+  opacity: 100;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.main .leading .profile .container-redes #twitter:hover {
+  width: 180px;
+  background-color: #50abf1;
+  -webkit-clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+          clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.main .leading .profile .container-redes #twitter:hover p {
+  opacity: 100;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.main .leading .profile .container-redes #gmail:hover {
+  width: 260px;
+  background-color: #f1f2f2;
+  -webkit-clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+          clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -moz-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -ms-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  -o-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.main .leading .profile .container-redes #gmail:hover p {
+  opacity: 100;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.main .leading .profile .container-redes #linkedin:hover {
+  width: 320px;
+  background-color: #0084b1;
+  -webkit-clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+          clip-path: polygon(100% 0%, 96% 52%, 100% 100%, 0 100%, 0 51%, 0 0);
+  transition: all 0.45s ease-in-out;
+  -webkit-transition: all 0.45s ease-in-out;
+  -moz-transition: all 0.45s ease-in-out;
+  -ms-transition: all 0.45s ease-in-out;
+  -o-transition: all 0.45s ease-in-out;
+}
+
+.main .leading .profile .container-redes #linkedin:hover p {
+  opacity: 100;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.main .leading .profile .container-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+}
+
+.main .leading .profile .container-btn .container-btn-cv a {
+  min-width: 150px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #80ed99;
+  -webkit-box-shadow: 0 5px #57cc99;
+          box-shadow: 0 5px #57cc99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  right: 0px;
+  text-decoration: none;
+}
+
+.main .leading .profile .container-btn .container-btn-cv a img {
+  width: 20px;
+}
+
+.main .leading .profile .container-btn .container-btn-cv a:hover {
+  -webkit-box-shadow: 0 3px #57cc99;
+          box-shadow: 0 3px #57cc99;
+  bottom: -1px;
+}
+
+.main .leading .profile .container-btn .container-btn-cv a:active {
+  -webkit-box-shadow: 0 0 #57cc99;
+          box-shadow: 0 0 #57cc99;
+  bottom: -5px;
+}
+
+.main .leading .profile .container-btn .container-btn-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40em;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.main .leading .profile .container-btn .container-btn-btns button {
+  font-size: 30px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 60px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #CABFAB;
+  -webkit-box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+          box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+  color: #585858;
+  text-align: center;
+}
+
+.main .leading .profile .container-btn .container-btn-btns button:active {
+  -webkit-box-shadow: inset 1px 1px 3px #2a2a2ac5, inset -1px -1px 3px rgba(0, 0, 0, 0.055);
+          box-shadow: inset 1px 1px 3px #2a2a2ac5, inset -1px -1px 3px rgba(0, 0, 0, 0.055);
+  font-size: 27px;
+}
+
+@media (max-width: 375px) {
+  .profile__name {
+    font-size: 1.2em !important;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 375px) {
+  .profile__name {
+    font-size: 1.7em !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .destroy {
+    display: none;
+  }
+  .main .leading .profile .container-redes {
+    display: none;
+  }
+  .container-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50vh;
+  }
+  .profile__image {
+    display: none;
+  }
+  .container-btn-cv a {
+    bottom: -20px;
+    left: 0;
+  }
+  .container-btn-cv a:hover {
+    bottom: -21px !important;
+  }
+  .container-btn-cv a:active {
+    -webkit-box-shadow: 0 0 #57cc99;
+            box-shadow: 0 0 #57cc99;
+    bottom: -25px;
+  }
+}
+
+@media (min-width: 850px) {
+  .destroy {
+    display: block;
+  }
+  .profile__name {
+    font-size: 3em !important;
+  }
+  .container-btn {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+/*# sourceMappingURL=home.component.css.map */

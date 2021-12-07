@@ -1,0 +1,116 @@
+// VARIABLES
+$radial-gradiant1: #c9beaa;
+$radial-gradiant2: #a5906b;
+
+.container-networks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 600px;
+  .buttons-networks{
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: radial-gradient($radial-gradiant1, $radial-gradiant2);
+    a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      width: 100%;
+      margin-top: 5px;
+      height: 60px;
+      padding: 5px 10px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+      text-align: center;
+      display: flex;
+      justify-content: flex-start;
+      p{
+        margin: 0;
+      }
+      img{
+        width: 10%;
+        margin-right: 20px;
+      }
+    }
+    #whatsapp{
+      background-color: #1bd741;
+    }
+    #twitter{
+      background-color: #50abf1;
+    }
+    #github{
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+    #gmail{
+      background-color: #f1f2f2;
+      color: #000;
+    }
+    #linkedin{
+      background-color: #0084b1;
+    }
+  }
+}
+button{
+  font-size: 30px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 60px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: $radial-gradiant1;
+  box-shadow: 2px 2px 4px #2a2a2a25, -1px -1px 3px rgba(0, 0, 0, 0.109);
+  color: #585858;
+  text-align: center;
+}
+button:active {
+  box-shadow: inset 1px 1px 3px #2a2a2ac5, inset -1px -1px 3px rgba(0, 0, 0, 0.055);
+  font-size: 27px;
+}
+// RESPONSIVE
+
+@media (max-width: 400px) {
+  a{
+    font-size: .9em;
+  }
+}
+@media (min-width: 401px) and (max-width: 600px) {
+  a{
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 601px) {
+  a{
+    font-size: 2.3em;
+  }
+}

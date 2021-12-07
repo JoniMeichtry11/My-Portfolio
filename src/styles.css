@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+html, body, h3, h2, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #CABFAB;
+}
+
+body p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
