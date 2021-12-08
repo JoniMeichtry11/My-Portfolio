@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "jonathan-meichtry",
+    "public": "dist/portfolio-web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
