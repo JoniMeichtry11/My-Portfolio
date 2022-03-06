@@ -9,6 +9,7 @@ import { ProyectsComponent } from './proyects/proyects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, '../assets/i18n/', '.json');
@@ -19,7 +20,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutMeComponent,
     ProyectsComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,
